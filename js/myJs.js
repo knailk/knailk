@@ -16,10 +16,10 @@ function firstQuestion(){
     Swal.fire({
         title: 'He luu Nhung Lé!',
         text: 'Anh có cái này muốn hỏi em nè.',
-        imageUrl: '../Proj/img/cuteCat.jpg',
+        imageUrl: 'https://github.com/knailk/knailk/blob/master/img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#fff url("../Proj/img/iput-bg.jpg")',
+        background: '#fff url("https://github.com/knailk/knailk/blob/master/img/iput-bg.jpg")',
         imageAlt: 'Custom image',
       }).then(function(){
         $('.content').show(200);
